@@ -1,0 +1,349 @@
+@charset "ISO-8859-1";
+
+/* For Admin login backgound*/
+#admin_login {
+	background-image: url("images/bg_login.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.login_head h1 {
+	padding: 20px;
+	margin-bottom: -20px;
+	margin-left: 40px;
+	font-family: monospace;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	text-align: left;
+}
+
+.login_head p {
+	margin-left: 90px;
+	text-align: left;
+	font-family: monospace;
+	font-size: 20px;
+	color: white;
+}
+/* CSS for Admin login box and fields*/
+.box {
+	width: 280px;
+	height: 350px;
+	background: black;
+	margin: 0;
+	padding: 30px;
+	top: 25%;
+	left: 60%;
+	color: #fff;
+	border-radius: 15px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.box h2 {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-size: 25px;
+	font-family: serif;
+}
+
+.box p {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+.box input {
+	width: 90%;
+	margin-bottom: 15px;
+	border-radius: 5px;
+}
+
+.box input[type="text"], .box input[type="password"] {
+	background: transparent;
+	border-style: ridge;
+	border-color: #21618c;
+	height: 35px;
+	color: #fff;
+	font-family: serif;
+	font-size: 15px;
+}
+
+.box input[type="submit"] {
+	display: block;
+	border: none;
+	outline: none;
+	height: 35px;
+	background: #21618c;
+	color: #000;
+	font-size: 20px;
+	font-family: serif;
+	border-radius: 20px;
+}
+
+/* CSS for header page */
+.header img {
+	display: inline-block;
+	padding: .5em;
+	line-height: 1.22;
+	float: left;
+	vertical-align: bottom;
+}
+
+.header h2 {
+	display: inline-block;
+	padding: 0;
+	margin-left: 0;
+	font-family: monospace;
+	font-size: 30px;
+	color: white;
+	text-align: left;
+}
+
+/*Administrator home*/
+
+#admin_homepage {
+	background-image: url("images/homea.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+	font-family: serif;
+	background-repeat: no-repeat;
+}
+
+.admin_home {
+	position: relative;
+	width: 95%;
+	margin-left: 20px;
+	background-color: #21618c;
+}
+
+#adminhome>nav {
+	width: 100%;
+	display: flex;
+	max-height: 70px;
+	box-shadow: -2px -2px 5px white, 2px -2px 5px white;
+}
+
+#adminhome>nav>h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+#adminhome>nav>ul {
+	margin: 0;
+	paddding: 0;
+	list-style-type: none;
+	display: flex;
+	position: relative;
+	right: 50px;
+}
+
+#adminhome>nav>ul>li {
+	line-height: 50px;
+	font-size: 20px;
+	margin: 0 0px;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+	min-width: 50px;
+	margin: 0 0px;
+}
+
+#adminhome>nav>ul>li>a {
+	color: white;
+}
+
+#adminhome>nav>ul>li>a:hover {
+	border-bottom: 2px solid white;
+	background-color: #0088ff;
+}
+
+
+
+/* Admin Education home page*/
+#body_Admin_Edu {
+	background-image: url("images/admin_edu.jpg");
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.admin_edu {
+	display: inline-block;
+	font-family: helvetica, arial, serif;
+	/*	-webkit-box-shadow: 0 0 70px #fff;
+	-moz-box-shadow: 0 0 70px #fff;
+	box-shadow: 0 0 70px #fff;
+	*/
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.admin_edu h3 {
+	line-height: 60px;
+	font-size: 40px;
+	margin: 0;
+	margin-left: 15px;
+	color: white;
+	width: 40%;
+	text-align: left;
+	text-shadow: 2px 2px 5px;
+}
+
+.adminedu_menu>li>a {
+	color: white;
+	display: block;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.admin_edu ul {
+	list-style: none;
+	position: relative;
+	text-align: left;
+}
+
+.admin_edu li {
+	float: left;
+}
+
+/* clear'n floats */
+.admin_edu ul:after {
+	clear: both;
+}
+
+.admin_edu ul:before, .admin_edu ul:after {
+	content: " ";
+	display: table;
+}
+
+.admin_edu nav {
+	position: relative;
+	/*background: #2B2B2B;*/
+	text-align: center;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 1px #0E0E0E;
+	/*-webkit-box-shadow: 2px 2px 3px #888;
+	-moz-box-shadow: 2px 2px 3px #888;
+	box-shadow: 2px 2px 3px #888;
+	*/
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+}
+
+/* prime */
+ul.adminedu_menu li a {
+	display: block;
+	padding: 20px 30px;
+	/*border-right: 1px solid #3D3D3D;*/
+}
+
+ul.adminedu_menu li:last-child a {
+	border-right: none;
+}
+
+ul.adminedu_menu li a:hover {
+	color: #000;
+}
+
+/* adminedu_itemss */
+ul.adminedu_items {
+	position: absolute;
+	z-index: 200;
+	box-shadow: 2px 2px 0 #BEBEBE;
+	width: 20%;
+	display: none;
+}
+
+ul.adminedu_items li {
+	float: none;
+	margin: 0;
+}
+
+ul.adminedu_items li a {
+	border-bottom: 1px dotted #ccc;
+	border-right: none;
+	color: #000;
+	padding: 15px 30px;
+}
+
+ul.adminedu_items li:last-child a {
+	border-bottom: none;
+}
+
+ul.adminedu_items li a:hover {
+	color: #000;
+	background: #eeeeee;
+}
+
+/* adminedu_items display*/
+ul.adminedu_menu li:hover ul {
+	display: block;
+	background: #fff;
+}
+
+/* keeps the tab background white */
+ul.adminedu_menu li:hover a {
+	background: #fff;
+	color: #666;
+	text-shadow: none;
+}
+
+ul.adminedu_menu li:hover>a {
+	color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+	.decor {
+		padding: 3px;
+	}
+	.admin_edu {
+		width: 100%;
+		margin-top: 0px;
+	}
+	li {
+		float: none;
+	}
+	ul.adminedu_menu li:hover a {
+		background: none;
+		color: #8B8B8B;
+		text-shadow: 1px 1px #000;
+	}
+	ul.adminedu_menu li:hover ul {
+		display: block;
+		background: #272727;
+		color: #fff;
+	}
+	ul.adminedu_items {
+		display: block;
+		position: static;
+		box-shadow: none;
+		width: 100%;
+	}
+	ul.adminedu_items li a {
+		background: #272727;
+		border: none;
+		color: #8B8B8B;
+	}
+	ul.adminedu_items li a:hover {
+		color: #ccc;
+		background: none;
+	}
+}
